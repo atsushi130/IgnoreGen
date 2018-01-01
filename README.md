@@ -1,5 +1,6 @@
 ## IgnoreGen
-![ignoregen](https://img.shields.io/badge/rust-ignoregen-4183c4.svg)  
+[![MIT / Apache2.0 dual licensed](https://img.shields.io/badge/dual%20license-MIT%20/%20Apache%202.0-blue.svg)](./license-mit.md)
+![ignoregen](https://img.shields.io/badge/Rust-ignoregen-4183c4.svg)  
 ignoregen is gitignore generator.
 
 ### Install
