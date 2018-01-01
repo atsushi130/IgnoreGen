@@ -4,4 +4,5 @@ version = "1.0.0"
 authors = ["atsushi130 <atsushi_main@outlook.jp>"]
 
 [dependencies]
-curl = "0.4.8"
+hyper  = "0.10"
+hyper-native-tls = "0.2"
