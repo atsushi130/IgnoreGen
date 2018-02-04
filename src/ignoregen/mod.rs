@@ -10,3 +10,6 @@ pub use self::ignoregen::IgnoreGen;
 
 mod languages;
 pub use self::languages::Languages;
+
+mod default_ignore;
+use self::default_ignore::DefaultIgnore;
