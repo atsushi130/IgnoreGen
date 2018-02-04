@@ -8,6 +8,7 @@
 use super::super::https_client::HttpsClientBuilder;
 use std::io::Read;
 use super::Languages;
+use super::DefaultIgnore;
 
 pub struct IgnoreGen;
 impl IgnoreGen {
@@ -25,7 +26,7 @@ impl IgnoreGen {
             .read_to_string(&mut response)
             .unwrap();
 
-        response
+        DefaultIgnore::get_default_ignore() + response.as_str()
     }
 
     fn build_url(&self, base_url: &str, query: &str) -> String {
