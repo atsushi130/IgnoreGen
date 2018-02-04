@@ -6,7 +6,7 @@
 // This file may not be copied, modified, or distributed except according to those terms.
 
 pub struct Languages {
-    pub list: Vec<String>
+    list: Vec<String>
 }
 
 impl Languages {
