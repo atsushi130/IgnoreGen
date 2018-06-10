@@ -1,7 +1,11 @@
 [package]
-name = "ignoregen"
-version = "1.0.0"
-authors = ["atsushi130 <atsushi_main@outlook.jp>"]
+name        = "ignoregen"
+version     = "0.1.0"
+authors     = ["atsushi130 <atsushi_main@outlook.jp>"]
+license     = "MIT/Apache-2.0"
+readme      = "readme.md"
+repository  = "https://github.com/atsushi130/IgnoreGen"
+keywords    = ["git", "ignore", "gitignore", "generate", "ignoreio"]
 
 [dependencies]
 hyper  = "0.10"
