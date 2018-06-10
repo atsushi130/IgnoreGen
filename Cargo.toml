@@ -4,6 +4,7 @@ version     = "0.1.0"
 authors     = ["atsushi130 <atsushi_main@outlook.jp>"]
 license     = "MIT/Apache-2.0"
 readme      = "README.md"
+description = "ignoregen is gitignore generator."
 repository  = "https://github.com/atsushi130/IgnoreGen"
 keywords    = ["git", "ignore", "gitignore", "generate", "ignoreio"]
 
